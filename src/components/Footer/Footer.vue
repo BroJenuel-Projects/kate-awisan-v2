@@ -6,7 +6,7 @@
         </a>
     </div>
     <div class="footer-f">
-        {{new Date().getFullYear()}} &copy; Kate Awisan
+        {{new Date().getFullYear()}} &copy; kateawisan
     </div>
 </template>
 <style lang="scss">
