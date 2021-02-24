@@ -1,0 +1,40 @@
+:root {
+    --text-color: #444444;
+    --normal-font-color: #3f3f3f;
+    --main-font: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    --gray: #aaa;
+    --transition: 0.3s;
+    --background: #fff;
+    --nav-height: 80px;
+    --nav-height-mobile: 70px;
+    --highlight: #ef629f;
+    --gradient: linear-gradient(-45deg,#eecda3, #ef629f);
+    --gradient-90: linear-gradient(-90deg,#eecda3, #ef629f);
+}
+
+* {
+    font-family:  'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul, p, span, div, b, i {
+    color: var(--text-color);
+}
+
+.a-before-enter {
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.a-enter {
+    transform: translateY(0px);
+    opacity: 1;
+}
