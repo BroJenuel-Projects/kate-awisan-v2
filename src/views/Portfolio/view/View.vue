@@ -23,9 +23,8 @@ export default {
     },
     mounted() {
         for(let w of Works) {
-            if (w.title == this.$route.params.id) {
+            if (w.title == this.$route.params.id) { 
                 this.selected = w
-                console.log(this.selected)
                 break;
             }
         }
@@ -53,8 +52,24 @@ export default {
             flex-wrap: wrap;
             img {
                 max-width: 700px;
+                width: 100%;
             }
         }
         
+    }
+    @media only screen and (max-width: 425px) {
+        .view {
+            h1 {
+                font-size: 2.2rem;
+                margin: 0;
+            }
+            .details {
+                p {
+                    font-size: 1.5rem;
+                    padding: 20px;
+                    margin: 0;
+                }
+            }
+        }
     }
 </style>

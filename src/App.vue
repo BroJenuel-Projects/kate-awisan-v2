@@ -14,8 +14,8 @@ export default {
 </script>
 <style lang="scss">
   main {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 20px 20px;
   }
 </style>
